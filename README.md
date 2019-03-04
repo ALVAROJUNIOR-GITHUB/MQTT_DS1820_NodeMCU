@@ -8,8 +8,9 @@ Sistema que mede a temperatua ambiente e/ou de líquidos, por intermédio de um 
 
 
 Para testar abra o Terminal LINUX e instale primeiro o BROKER mosquitto. Para isso digite: 
-sudo apt-get install mosquitto
-sudo apt-get install mosquitto-clients
+
+ - sudo apt-get install mosquitto
+ - sudo apt-get install mosquitto-clients
 
 
 Depois da instalação acima digite o código abaixo e de enter, assim que o NODEMCU começar a publicar, as temperaturas serão mostradas.
