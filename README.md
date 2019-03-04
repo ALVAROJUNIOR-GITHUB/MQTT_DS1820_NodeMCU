@@ -19,10 +19,8 @@ Depois da instalação acima digite o código abaixo e de enter, assim que o NOD
 
 
 Para temperatura Máxima digite:
-
  - mosquitto_sub -h iot.eclipse.org -t teste/temp_MAX
 
 
 Para temperatura Mínima digite:
-
 - mosquitto_sub -h iot.eclipse.org -t teste/temp_MIN
