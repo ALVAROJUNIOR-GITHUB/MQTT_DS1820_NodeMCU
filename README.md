@@ -1,5 +1,5 @@
 # MQTT_DS1820_NodeMCU
-Publish MQTT. Projeto testado com placa NodeMCU modelo AMICA.
+Projeto testado com as placas NodeMCU modelo AMICA e NodeMCU modelo LOLIN. Todas ESP8266.
 
 Sistema que mede a temperatua ambiente e/ou de líquidos, por intermédio de um Sensor DS1820, e faz um PUBLISH MQTT nos BROKER's abaixo:
 
