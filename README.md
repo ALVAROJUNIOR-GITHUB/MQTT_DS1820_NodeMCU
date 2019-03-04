@@ -13,7 +13,8 @@ Para testar abra o Terminal LINUX e instale primeiro o BROKER mosquitto. Para is
  - sudo apt-get install mosquitto-clients
 
 
-Depois da instalação acima digite o código abaixo e de enter, assim que o NODEMCU começar a publicar, as temperaturas serão mostradas.
+Depois da instalação digite o código abaixo e de enter, assim que o NODEMCU começar a publicar, as temperaturas serão mostradas.
+NÃO ESQUECER SE COLOCAR NO CODIGO DO NODEMCU A SUA REDE E A SUA SENHA !!!
 
 - mosquitto_sub -h iot.eclipse.org -t teste/temp  
 
