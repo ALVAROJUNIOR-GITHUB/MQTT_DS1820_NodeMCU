@@ -11,7 +11,9 @@ DallasTemperature sensors(&oneWire);
 
 const char* ssid        = "FINADO ZE LINGUINHA";
 const char* password    = "CB4001982";
-const char* mqtt_server = "iot.eclipse.org"; // ou este broker aqui "test.mosquitto.org"
+//const char* mqtt_server = "iot.eclipse.org"; 
+//const char* mqtt_server = "teste.mosquitto.org"; 
+const char* mqtt_server = "broker.hivemq.com"; 
 
 WiFiClient espClient;
 PubSubClient client(espClient);
